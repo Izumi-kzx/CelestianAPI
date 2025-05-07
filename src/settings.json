@@ -59,7 +59,7 @@
         {
           "name": "YouTube",
           "desc": "Búsquedas en Youtube",
-          "path": "/search/youtube?q="
+          "path": "/search/youtube?text="
         }
       ]
     }
