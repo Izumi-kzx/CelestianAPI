@@ -1,57 +1,8 @@
-:root {
-    /* Main colors */
-    --primary-color: #4361ee;
-    --secondary-color: #3a86ff;
-    --accent-color: #4cc9f0;
-
-    /* Status colors */
-    --success-color: #10b981;
-    --error-color: #ef4444;
-    --warning-color: #f59e0b;
-
-    /* Light theme */
-    --background-color: #f8fafc;
-    --card-background: #ffffff;
-    --text-color: #1e293b;
-    --text-muted: #64748b;
-    --border-color: #e2e8f0;
-
-    /* UI elements */
-    --border-radius-sm: 8px;
-    --border-radius: 12px;
-    --border-radius-lg: 16px;
-    --shadow-sm: 0 1px 3px rgba(0,0,0,0.05);
-    --shadow: 0 4px 6px -1px rgba(0,0,0,0.05), 0 2px 4px -1px rgba(0,0,0,0.03);
-    --shadow-lg: 0 10px 15px -3px rgba(0,0,0,0.05), 0 4px 6px -2px rgba(0,0,0,0.025);
-    --transition: all 0.2s ease;
-    --transition-slow: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.dark-mode {
-    --primary-color: #60a5fa;
-    --secondary-color: #3b82f6;
-    --accent-color: #38bdf8;
-
-    --background-color: #0f172a;
-    --card-background: #1e293b;
-    --text-color: #f1f5f9;
-    --text-muted: #94a3b8;
-    --border-color: #334155;
-}
-
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
 body {
-    font-family: 'Inter', sans-serif;
-    color: var(--text-color);
-    background-color: var(--background-color);
-    line-height: 1.5;
-    transition: background-color 0.3s ease, color 0.3s ease;
-    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+    color: #4B4B4B;
+    padding: 50px 30px;
+    padding-top: 100px;
 }
 
 body.no-scroll {
@@ -59,7 +10,7 @@ body.no-scroll {
 }
 
 .navbar {
-    background-color: black;
+    background-color: white;
     padding: 15px 32px;
     position: fixed;
     top: 0;
