@@ -140,12 +140,12 @@ body {
 }
 
 #version {
-    background-color: #333;
+    background: linear-gradient(to right, var(--primary-color), var(--secondary-color));
     color: white;
-    padding: 5px 12px;
-    font-size: 11px;
+    padding: 4px 12px;
+    font-size: 14px;
     border-radius: 100px;
-    white-space: nowrap;
+    font-weight: 600;
 }
 
 .spinner-wrapper {
