@@ -59,7 +59,7 @@
         {
           "name": "Tiktok",
           "desc": "Descarga contenido de tiktok",
-          "path": "/search/youtube?url="
+          "path": "/downloader/tiktok?url="
         }
       ]
     },
