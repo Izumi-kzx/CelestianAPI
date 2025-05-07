@@ -58,7 +58,7 @@
       "items": [
         {
           "name": "YouTube",
-          "desc": "Video search",
+          "desc": "Búsquedas en Youtube",
           "path": "/search/youtube?text="
         }
       ]
