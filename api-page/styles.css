@@ -122,13 +122,12 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: white;
-    z-index: 9999;
+    background-color: var(--background-color);
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    font-family: 'Poppins', sans-serif;
+    z-index: 9999;
+    transition: opacity 0.5s ease;
 }
 
 #nameContainer {
