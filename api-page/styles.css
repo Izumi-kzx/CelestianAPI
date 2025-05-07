@@ -42,21 +42,25 @@ body {
   transition: var(--transition);
 }
 
+/* Navbar */
 .navbar {
-  background-color: var(--card-background);
-  padding: 15px 32px;
-  position: fixed;
-  top: 0; left: 0; right: 0;
-  z-index: 100;
-  box-shadow: var(--shadow-sm);
-  transition: var(--transition);
-}
-.navbar.scrolled {
-  box-shadow: var(--shadow);
+    background-color: var(--card-background);
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    box-shadow: var(--shadow);
+    transition: var(--transition);
 }
 
 .navbar-brand {
-  color: var(--text-color);
+    display: flex;
+    align-items: center;
+    color: var(--text-color);
+    font-weight: 600;
+    text-decoration: none;
 }
 
 .navbar-brand.visible {
