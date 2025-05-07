@@ -73,15 +73,32 @@ body {
     color: var(--text-color);
 }
 
+/* Modal */
 .modal-content {
-  background-color: var(--card-background);
-  color: var(--text-color);
+    background-color: var(--card-background);
+    color: var(--text-color);
+    border: none;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-lg);
+    overflow: hidden;
 }
 
-.modal-dialog {
-    margin: 20px;
-    max-width: 100%;
-    max-height: 80vh;
+.modal-header {
+    padding: 20px;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.modal-title {
+    font-weight: 600;
+    color: var(--text-color);
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+.modal-desc {
+    color: var(--text-muted);
+    font-size: 14px;
+    margin: 0;
 }
 
 .modal-body {
