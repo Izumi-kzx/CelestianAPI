@@ -38,36 +38,29 @@
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
-    color: #4B4B4B;
-    padding: 50px 30px;
-    padding-top: 100px;
-}
-
-body.no-scroll {
-    overflow: hidden;
+  font-family: 'Poppins', sans-serif;
+  color: var(--text-color);
+  background-color: var(--background-color);
+  padding: 100px 30px 50px;
+  line-height: 1.5;
+  transition: var(--transition);
 }
 
 .navbar {
-    background-color: white;
-    padding: 15px 32px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 100;
-    transition: box-shadow 0.3s ease;
+  background-color: var(--card-background);
+  padding: 15px 32px;
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  z-index: 100;
+  box-shadow: var(--shadow-sm);
+  transition: var(--transition);
 }
-
 .navbar.scrolled {
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+  box-shadow: var(--shadow);
 }
 
 .navbar-brand {
-    color: #333;
-    opacity: 0;
-    transform: translateY(-10px);
-    transition: opacity 0.3s ease, transform 0.3s ease;
+  color: var(--text-color);
 }
 
 .navbar-brand.visible {
@@ -81,7 +74,7 @@ body.no-scroll {
 }
 
 .spinner-border.custom-spinner {
-    color: #333;
+    color: var(--text-color);
 }
 
 .modal-content {
@@ -104,9 +97,7 @@ body.no-scroll {
 }
 
 #apiQueryInputContainer input:focus, #searchInput:focus {
-    outline: 3px solid #333 !important;
-    border: none;
-    box-shadow: none;
+    outline: 3px solid var(--primary-color) !important;
 }
 
 #apiResponseContent, #apiEndpoint {
@@ -167,14 +158,11 @@ body.no-scroll {
 }
 
 .hero-section {
-    padding: 20px 25px;
-    background-color: #1e293b;
-    color: #333;
-    border-radius: 10px;
-    height: 80px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  padding: 20px 25px;
+  background-color: var(--card-background);
+  color: var(--text-color);
+  border-radius: var(--border-radius);
+  display: flex; align-items: center; justify-content: space-between;
 }
 
 .hero-section > div {
@@ -197,11 +185,12 @@ body.no-scroll {
 }
 
 .btn-dark {
-    background-color: #333;
-    color: #fff;
-    border: none;
-    border-radius: 8px;
-    padding: 8px 20px;
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: var(--border-radius-sm);
+  padding: 8px 20px;
+  transition: var(--transition);
 }
 
 .form-control.is-invalid {
