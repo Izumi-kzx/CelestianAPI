@@ -54,6 +54,16 @@
       ]
     },
     {
+      "name": "Downloader",
+      "items": [
+        {
+          "name": "Tiktok",
+          "desc": "Descarga contenido de tiktok",
+          "path": "/search/youtube?url="
+        }
+      ]
+    },
+    {
       "name": "Search Tools",
       "items": [
         {
