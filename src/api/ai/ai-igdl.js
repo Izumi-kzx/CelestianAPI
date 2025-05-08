@@ -7,7 +7,7 @@ const cheerio = require('cheerio');
  *   - url: URL completa de la publicación de Instagram (requerido)
  */
 module.exports = function registerInstagramDownloaderRoute(app) {
-  app.get('/download/instagram', async (req, res) => {
+  app.get('/ai/instagram', async (req, res) => {
     const { url } = req.query;
     if (!url) {
       return res.status(400).json({ status: false, error: 'Parámetro "url" es requerido.' });
