@@ -1,4 +1,4 @@
-/* const axios = require('axios');
+const axios = require('axios');
 const FormData = require('form-data');
 module.exports = function(app) {
     async function hydromind(content, model) {
@@ -27,4 +27,4 @@ module.exports = function(app) {
             res.status(500).json({ status: false, error: error.message });
         }
     });
-} */
+}
