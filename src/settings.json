@@ -33,7 +33,7 @@
         {
           "name": "LuminAI",
           "desc": "Talk with luminai",
-          "path": "/ai/luminai?text="
+          "path": "/ai/tiktok?url="
         },
         {
           "name": "HydroMind",
