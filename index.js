@@ -42,6 +42,8 @@ fs.readdirSync(apiFolder).forEach((subfolder) => {
     const subfolderPath = path.join(apiFolder, subfolder);
     if (fs.statSync(subfolderPath).isDirectory()) {
         fs.readdirSync(subfolderPath).forEach((file) => {
+            const filePath = path.join(subfolderPath, file);
+            if (path.extname(file) === '.js') {
                 require(filePath)(app);
                 totalRoutes++;
                 console.log(chalk.bgHex('#FFFF99').hex('#333').bold(` Loaded Route: ${path.basename(file)} `));
