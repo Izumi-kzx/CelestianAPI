@@ -47,8 +47,6 @@ fs.readdirSync(apiFolder).forEach((subfolder) => {
                 const route = require(filePath);
 if (typeof route === 'function') {
     route(app);
-    totalRoutes++;
-}
                 totalRoutes++;
                 console.log(chalk.bgHex('#FFFF99').hex('#333').bold(` Loaded Route: ${path.basename(file)} `));
             }
