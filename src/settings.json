@@ -31,9 +31,9 @@
       "name": "Downloader",
       "items": [
         {
-          "name": "Instagram",
-          "desc": "descarga de Instagram",
-          "path": "/ai/igdl?url="
+          "name": "LuminAI",
+          "desc": "Talk with luminai",
+          "path": "/ai/luminai?text="
         },
         {
           "name": "HydroMind",
