@@ -31,9 +31,9 @@
       "name": "Downloader",
       "items": [
         {
-          "name": "LuminAI",
+          "name": "Instagram",
           "desc": "Talk with luminai",
-          "path": "/ai/tiktok?url="
+          "path": "/ai/igdl?url="
         },
         {
           "name": "HydroMind",
