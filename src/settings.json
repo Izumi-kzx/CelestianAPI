@@ -28,7 +28,7 @@
   ],
   "categories": [
     {
-      "name": "Downloader",
+      "name": "AI (Artificial Intelligence)",
       "items": [
         {
           "name": "LuminAI",
@@ -58,8 +58,8 @@
       "items": [
         {
           "name": "YouTube",
-          "desc": "Búsquedas en Youtube",
-          "path": "/search/youtube?text="
+          "desc": "Video search",
+          "path": "/search/youtube?q="
         }
       ]
     }
